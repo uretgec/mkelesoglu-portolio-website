@@ -1,0 +1,47 @@
+
+<div class="header affix">
+    <div class="table">
+        <div class="table-cell">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="img/{{ me.logo }}" width="100" alt="" />
+                <a href="index.html">{{ me.fullname }}</a>
+            </div>
+            <!-- End Logo -->
+
+            <!-- Navigation -->
+            <div class="main-menu">
+                <nav>
+                    <ul class="menu-list">
+                        <li class="active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        {% if pages|length > 0 %}
+                            {% for item in pages %}
+                                <li><a href="{{ item.slug }}.html">{{ item.title }}</a></li>
+                            {% endfor %}
+                        {% endif %}
+                    </ul>
+                </nav>
+            </div>
+            <!-- End Navigation -->
+
+            <!-- Socials -->
+            {% if me.social|length > 0 %}
+            <div class="socials">
+                {% for social, url in me.social %}
+                    <a href="{{ url|default('#') }}" title="{{ social }}">
+                        <i class="fab fa-{{ social }}"></i>
+                    </a>
+                {% endfor %}
+            </div>
+            {% endif %}
+            <!-- End Socials -->
+
+            <div class="copyright">
+                <p>&copy; {{ 'now'|date('Y') }} - All rights reserved by {{ me.nickname }}</p>
+            </div>
+
+        </div>
+    </div>
+</div>

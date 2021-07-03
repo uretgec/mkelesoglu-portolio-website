@@ -1,0 +1,29 @@
+theme: default
+meta:
+    title: ''
+    description: ''
+    keywords: ''
+base_url: 'http://mkelesoglu.com'
+google:
+  analytics: ''
+  verification: ''
+enum_status:
+  passive: 1
+  active: 2
+enum_sitemap_freq:
+  hourly: 'hourly'
+  daily: 'daily'
+  weekly: 'weekly'
+  monthly: 'monthly'
+  yearly: 'yearly'
+enum_sitemap_priority: 
+  1: '1'
+  2: '2'
+  3: '3'
+  4: '4'
+  5: '5'
+  6: '6'
+  7: '7'
+  8: '8'
+  9: '9'
+  10: '10'

@@ -1,0 +1,224 @@
+-
+  id: 1
+  order: 1
+  template: 'single'
+  media:
+    - 'portfolio_0000s_0000_jumper_1.jpg'
+    - 'portfolio_0000s_0001_jumper_2.jpg'
+  title: 'Jumper Game'
+  slug: 'jumper-game'
+  content: 'Jump line platform game'
+  category: 'Hyper Casual'
+  tags:
+    - ''
+  meta:
+    title: ''
+    description: ''
+  status: 2
+  sitemap:
+    freq: 'weekly'
+    priority: '7'
+
+-
+  id: 2
+  order: 2
+  template: 'single'
+  media:
+    - 'portfolio_0001s_0000_funk_hu_3.jpg'
+    - 'portfolio_0001s_0001_saban_2.jpg'
+    - 'portfolio_0001s_0002_tarkan_1.jpg'
+  title: 'Fan Arts'
+  slug: 'fun-arts'
+  content: 'Fanart Character Illustration'
+  category: 'Character Design'
+  tags:
+    - ''
+  meta:
+    title: ''
+    description: ''
+  status: 2
+  sitemap:
+    freq: 'weekly'
+    priority: '7'
+
+-
+  id: 3
+  order: 3
+  template: 'single'
+  media:
+    - 'portfolio_0002s_0000_hellboy_3.jpg'
+    - 'portfolio_0002s_0001_teminator_2.jpg'
+    - 'portfolio_0002s_0002_fredi_1.jpg'
+  title: 'Masks'
+  slug: 'masks'
+  content: 'Mask Comic Clothes'
+  category: 'Ski Mask'
+  tags: 
+    - ''
+  meta:
+    title: ''
+    description: ''
+  status: 2
+  sitemap:
+    freq: 'weekly'
+    priority: '7'
+  
+-
+  id: 4
+  order: 4
+  template: 'single'
+  media:
+    - 'portfolio_0003s_0000_rubik_3.jpg'
+    - 'portfolio_0003s_0001_rubik_2.jpg'
+    - 'portfolio_0003s_0002_rubik_1.jpg'
+  title: 'Rubik Magazine Cover'
+  slug: 'rubik-magazine-cover'
+  content: 'Graphic Design with Logo'
+  category: 'Magazine'
+  tags: 
+    - ''
+  meta:
+    title: ''
+    description: ''
+  status: 2
+  sitemap:
+    freq: 'weekly'
+    priority: '7'
+      
+-
+  id: 5
+  order: 5
+  template: 'single'
+  media:
+    - 'portfolio_0004s_0000_totoro_1.jpg'
+    - 'portfolio_0004s_0001_sneaky_cat_2.jpg'
+    - 'portfolio_0004s_0002_cat_eye_3.jpg'
+    - 'portfolio_0004s_0003_teen_titans_4.jpg'
+    - 'portfolio_0004s_0004_jack_5.jpg'
+    - 'portfolio_0004s_0005_dead_pool_6.jpg'
+  title: 'Totoro'
+  slug: 'totoro'
+  content: 'Illustration Character Design Fun'
+  category: 'Photo Illustration'
+  tags: 
+    - ''
+  meta:
+    title: ''
+    description: ''
+  status: 2
+  sitemap:
+    freq: 'weekly'
+    priority: '7'
+          
+-
+  id: 6
+  order: 6
+  template: 'single'
+  media:
+    - 'portfolio_0005s_0000_cappadocia_1.jpg'
+    - 'portfolio_0005s_0001_cherry_pie_2.jpg'
+    - 'portfolio_0005s_0002_eras_3.jpg'
+    - 'portfolio_0005s_0003_marie_4.jpg'
+    - 'portfolio_0005s_0004_mc_5.jpg'
+    - 'portfolio_0005s_0005_kuki_design_6.jpg'
+    - 'portfolio_0005s_0006_doner_store_7.jpg'
+  title: 'Logo'
+  slug: 'logos'
+  content: 'Graphic with Logo design'
+  category: 'Logos'
+  tags: 
+    - ''
+  meta:
+    title: ''
+    description: ''
+  status: 2
+  sitemap:
+    freq: 'weekly'
+    priority: '7'
+
+-
+  id: 7
+  order: 7
+  template: 'single'
+  media:
+    - 'portfolio_0006s_0000_bbu_2.jpg'
+    - 'portfolio_0006s_0001_bbu_1.jpg'
+  title: 'BBU'
+  slug: 'bbu'
+  content: 'Character and Cartoon Magazine'
+  category: 'Funarts'
+  tags: 
+    - ''
+  meta:
+    title: ''
+    description: ''
+  status: 2
+  sitemap:
+    freq: 'weekly'
+    priority: '7'
+
+-
+  id: 8
+  order: 8
+  template: 'single'
+  media:
+    - 'portfolio_0007s_0000_jack_2.jpg'
+    - 'portfolio_0007s_0001_jack_1.jpg'
+  title: 'Jack'
+  slug: 'jack'
+  content: 'Character Design Illustration'
+  category: 'Mascot'
+  tags: 
+    - ''
+  meta:
+    title: ''
+    description: ''
+  status: 2
+  sitemap:
+    freq: 'weekly'
+    priority: '7'
+
+-
+  id: 9
+  order: 9
+  template: 'single'
+  media:
+    - 'portfolio_0008s_0004_tape_1.jpg'
+    - 'portfolio_0008s_0003_tape_2.jpg'
+    - 'portfolio_0008s_0002_tape_3.jpg'
+    - 'portfolio_0008s_0001_tape_4.jpg'
+    - 'portfolio_0008s_0000_tape_5.jpg'
+  title: 'Tape'
+  slug: 'tape'
+  content: 'Character Design Illustration'
+  category: 'Character Design'
+  tags: 
+    - ''
+  meta:
+    title: ''
+    description: ''
+  status: 2
+  sitemap:
+    freq: 'weekly'
+    priority: '7'
+
+-
+  id: 10
+  order: 10
+  template: 'single'
+  media:
+    - 'portfolio_0009s_0001_apes_1.jpg'
+    - 'portfolio_0009s_0000_apes_2.jpg'
+  title: 'Apes'
+  slug: 'apes'
+  content: 'Character Design Illustration'
+  category: 'Character Design'
+  tags: 
+    - ''
+  meta:
+    title: ''
+    description: ''
+  status: 2
+  sitemap:
+    freq: 'weekly'
+    priority: '7'

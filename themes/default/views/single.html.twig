@@ -1,0 +1,40 @@
+{% extends './layout/base.html.twig' %}
+
+{% block body %}
+<div class="project">
+    <div class="detail-content">
+        <h2 class="title">
+            {{ item.title|default('-') }}
+        </h2>
+        <div class="the-content">
+            {{ item.content|default('-') }}
+        </div>
+        <div class="project-attributes">
+            <table>
+                <tbody>
+                <tr>
+                    <td class="name">Category</td>
+                    <td class="value">{{ item.category|default('-') }}</td>
+                </tr>
+                <tr>
+                    <td class="name">Tags</td>
+                    <td class="value">{{ item.tags|join(' ,')|default('-') }}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    {% if item.media|length > 0 %}
+        <div class="images-project">
+            {% for media in item.media %}
+            <a href="img/{{ media }}" class="popup">
+                <img src="img/{{ media }}" alt="">
+            </a>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
+</div>
+
+{% endblock %}

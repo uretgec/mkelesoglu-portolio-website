@@ -1,0 +1,17 @@
+{
+  "name": "mkelesoglu.com",
+  "version": "1.0.0",
+  "description": "portfolio generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "uretgec",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "ftp": "^0.3.10",
+    "js-yaml": "^3.13.1",
+    "twig": "^1.13.3"
+  }
+}

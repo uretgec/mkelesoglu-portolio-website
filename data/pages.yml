@@ -1,0 +1,18 @@
+-
+  id: 1
+  order: 1
+  template: 'page'
+  title: 'About Me'
+  slug: 'about-me'
+  content: '- 1989 - Born to Kula/Manisa/Turkey
+  - 2006 - Education From University of Dumlupınar Graphics Designer Departmant
+  - 2012 - Joined to Army
+  - I have been working as a Game Artist since 2013'
+  media: null
+  meta:
+    title: ''
+    description: ''
+  status: 2
+  sitemap:
+    freq: 'monthly'
+    priority: '3'  

@@ -1,0 +1,16 @@
+{% extends './layout/base.html.twig' %}
+
+{% block body %}
+    {% if posts|length > 0 %}
+        {% for item in posts %}
+            <div class="project-item">
+                <a href="{{ item.slug }}.html">
+                    <img src="img/{{ item.media[0] }}" alt="">
+                </a>
+                <h2 class="title">
+                    <a href="{{ item.slug }}.html">{{ item.title }}</a>
+                </h2>
+            </div>
+        {% endfor %}
+    {% endif %}
+{% endblock %}

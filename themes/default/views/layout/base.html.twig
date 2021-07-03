@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>{{ me.fullname }} - </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,600,700' type='text/css' media='all' />
+
+		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/justifiedGallery.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	</head>
+
+<body class="home">
+
+	<!-- Wrapper Site -->
+	<div id="main-content">
+
+		<!-- Preload -->
+		<div id="preload">
+			<div class="kd-bounce">
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		<!-- Preload -->
+
+		<!-- Mobile Menu -->
+		<div class="mobile">
+			<div class="container">
+				<!-- Mobile -->
+				<div class="menu-mobile">
+					<span class="item item-1"></span>
+					<span class="item item-2"></span>
+					<span class="item item-3"></span>
+				</div>
+				<!-- End Mobile -->
+
+				<!-- Logo -->
+				<div class="logo">
+					<a href="index.html">{{ me.nickname|upper }}</a>
+				</div>
+				<!-- End Logo -->
+			</div>
+		</div>
+		<div class="hide-menu"></div>
+		<!-- End Mobile Menu -->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					{% include '../sidebar.html.twig' %}
+				</div>
+				<div class="col-md-9 col-md-offset-3">
+					<div class="projects">
+                		{% block body %}{% endblock %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Wrapper Site -->
+
+	<!-- Footer -->
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 col-md-offset-3">
+					<div class="footer-inner">
+						<div class="row">
+							<div class="col-sm-6">
+								<h2 class="title">About Me</h2>
+								<p>{{ me.about|default('-') }} {{ me.job_title|join(', ') }}</p>
+							</div>
+							<div class="col-sm-6">
+								<h2 class="title">Contact Me</h2>
+								<ul>
+									<li>Phone: {{ me.phone|default('-') }}</li>
+									<li>Email: {{ me.email|default('-') }}</li>
+									<li>Location: {{ me.location|default('-') }}</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery-1.12.4.min.js"></script>
+	<script src="assets/js/jquery.justifiedGallery.min.js"></script>
+	<script src="assets/js/jquery.magnific-popup.js"></script>
+	<script src="assets/js/scripts.js"></script>
+	<!-- End Scripts -->
+
+</body>
+</html>

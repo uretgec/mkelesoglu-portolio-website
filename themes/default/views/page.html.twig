@@ -1,0 +1,22 @@
+{% extends './layout/base.html.twig' %}
+
+{% block body %}
+<article class="post">
+    {% if item.media|length > 0 %}
+    <div class="post-media">
+        <a href="#">
+            <img src="img/{{ item.media[0] }}" alt="">
+        </a>
+    </div>
+    {% endif %}
+    <div class="post-content">
+        <h2 class="title">{{ item.title|default('-') }}</h2>
+
+        <!-- The Content -->
+        <div class="the-content">
+            {{ item.content|default('-') }}
+        </div>
+        <!-- End The Content -->
+    </div>
+</article>
+{% endblock %}
